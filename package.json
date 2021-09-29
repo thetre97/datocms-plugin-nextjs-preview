@@ -7,7 +7,7 @@
   "scripts": {
     "develop": "NODE_ENV=development webpack-dev-server --port 5000",
     "build": "NODE_ENV=production webpack --progress",
-    "prepublishOnly": "rimraf lib dist && mkdir dist && npm run dist",
+    "prepublishOnly": "rimraf lib dist && mkdir dist && npm run build",
     "addToProject": "yo datocms-plugin:add-to-project"
   },
   "keywords": [
