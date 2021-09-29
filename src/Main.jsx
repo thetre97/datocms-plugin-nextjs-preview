@@ -96,8 +96,8 @@ export default class Main extends Component {
     const path = this.getEntityPath();
     const noSlashInstanceUrl = instanceUrl.replace(/\/$/, '');
 
-    const previewHref = `${noSlashInstanceUrl}${previewPath}?slug=${path}${previewSecret ? `&secret=${previewSecret}` : ''}`;
-    const liveHref = disablePreviewPath ? `${noSlashInstanceUrl}${disablePreviewPath}?slug=${path}` : `${noSlashInstanceUrl}${path}`;
+    const previewHref = `${noSlashInstanceUrl}${path}?preview=true`;
+    const liveHref = `${ noSlashInstanceUrl }${ path }`;
 
     return (
       <>
