@@ -1,8 +1,8 @@
 {
   "name": "datocms-plugin-nuxtjs-preview",
   "homepage": "https://github.com/thetre97/datocms-plugin-nuxtjs-preview",
-  "version": "0.2.0",
-  "description": "Plugin that provides links to preview content in Next.js",
+  "version": "0.1.0",
+  "description": "Plugin that provides links to preview content in Nuxt.js",
   "main": "index.js",
   "scripts": {
     "develop": "NODE_ENV=development webpack-dev-server --port 5000",
